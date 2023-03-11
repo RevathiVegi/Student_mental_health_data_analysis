@@ -58,5 +58,7 @@ It is important to note that this analysis has several limitations:
 ## Usage
 To replicate this analysis, users will need access to the dataset and a SQL database. The SQL code can be run on the database to produce the results presented in this documentation.
 
+
+
 ## Conclusion
 This analysis provides valuable insights into the mental health of college students, including the prevalence of mental health diagnoses and the symptoms experienced. Further research is needed to better understand.
