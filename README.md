@@ -10,16 +10,16 @@ The dataset was pre-processed to ensure that the data is clean and usable for an
 
 ## Data Dictionary
 Here is a brief summary of the variables in the dataset:
-ID: Unique identifier for each student
-Age: Age of the student
-Gender: Gender of the student (M/F)
-Course: Academic course of the student (49 courses included)
-Study: Academic year of study (Year 1-4)
-CGPA: Cumulative Grade Point Average of each student in their course
-Marital status: Whether the student is married or unmarried (Yes/No)
-Mental Health Diagnosis: Whether the student has been diagnosed with a mental health condition (Depression/Anxiety/Panic attack) (Yes/No)
-Treatment: Whether the student has received treatment for a mental health condition (Yes/No)
-Timestamp without time zone.
+- ID: Unique identifier for each student
+- Age: Age of the student
+- Gender: Gender of the student (M/F)
+- Course: Academic course of the student (49 courses included)
+- Study: Academic year of study (Year 1-4)
+- CGPA: Cumulative Grade Point Average of each student in their course
+- Marital status: Whether the student is married or unmarried (Yes/No)
+- Mental Health Diagnosis: Whether the student has been diagnosed with a mental health condition (Depression/Anxiety/Panic attack) (Yes/No)
+- Treatment: Whether the student has received treatment for a mental health condition (Yes/No)
+- Timestamp without time zone.
 
 ## Demographic Analysis
 This section analyses the demographic information in the dataset, including the age, gender and marital status. It includes SQL queries to compare married to unmarried students suffering from depression, percentage of students experiencing anxiety depending on their academic year of study, correlation of gender with treatment assistance, percentage of students having panic attacks, depression and anxiety.
@@ -60,4 +60,3 @@ To replicate this analysis, users will need access to the dataset and a SQL data
 
 ## Conclusion
 This analysis provides valuable insights into the mental health of college students, including the prevalence of mental health diagnoses and the symptoms experienced. Further research is needed to better understand.
-
