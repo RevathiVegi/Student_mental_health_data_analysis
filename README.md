@@ -67,14 +67,23 @@ This analysis provides valuable insights into the mental health of college stude
 
 # Student Mental Health Data Analytics - PowerBI Dashboard
 ## Data Details
-Data Source: The data is sourced from a survey conducted on the mental health of students, where the following data points were collected:
+Data Source
+  The data is sourced from a survey conducted on the mental health of students, where the following data points were collected:
+  
 •	Timestamp: The date and time when the survey was conducted
+
 •	Anxiety: A binary variable indicating if the student has experienced anxiety or not (Yes = 1, No = 0)
+
 •	Depression: A binary variable indicating if the student has experienced depression or not (Yes = 1, No = 0)
+
 •	Panic Attack: A binary variable indicating if the student has experienced a panic attack or not (Yes = 1, No = 0)
+
 •	Course: The course taken by the student
+
 •	CGPA: The cumulative grade point average of the student, represented by a decimal value
+
 •	Study: The level of study of the student (Year 1, Year 2, Year 3, Year 4, Year 5)
+
 •	Treatment Assistance: A binary variable indicating if the student has received treatment assistance or not (Yes = 1, No = 0)
 
 ## Bar Chart
