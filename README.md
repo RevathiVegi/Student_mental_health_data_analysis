@@ -65,6 +65,59 @@ This analysis provides valuable insights into the mental health of college stude
 
 
 
+#Student Mental Health Data Analytics - PowerBI Dashboard
+##Data Details
+Data Source: The data is sourced from a survey conducted on the mental health of students, where the following data points were collected:
+•	Timestamp: The date and time when the survey was conducted
+•	Anxiety: A binary variable indicating if the student has experienced anxiety or not (Yes = 1, No = 0)
+•	Depression: A binary variable indicating if the student has experienced depression or not (Yes = 1, No = 0)
+•	Panic Attack: A binary variable indicating if the student has experienced a panic attack or not (Yes = 1, No = 0)
+•	Course: The course taken by the student
+•	CGPA: The cumulative grade point average of the student, represented by a decimal value
+•	Study: The level of study of the student (Year 1, Year 2, Year 3, Year 4, Year 5)
+•	Treatment Assistance: A binary variable indicating if the student has received treatment assistance or not (Yes = 1, No = 0)
+
+##Bar Chart
+The Bar Chart Showing Mental Health Issues by Course is a visualization created in Power BI, which displays the number of students reporting anxiety, depression, and panic attacks for each course in the dataset. The visualization has courses on the y-axis and the count of mental health issues on the x-axis. The chart helps to identify which courses have higher numbers of mental health issues reported.
+The chart is created using a bar chart visualization in Power BI, where each course is represented by a bar. The bars are sorted in descending order based on the total number of mental health issues reported across all courses. The color of each bar is assigned based on the type of mental health issue - anxiety is represented in brown, depression in beige, and panic attacks in grey.
+The chart provides a clear visual representation of the number of mental health issues reported for each course. Users can easily identify courses with the highest number of reported mental health issues, and also compare the relative number of mental health issues across courses.
+
+###Conclusion
+Overall, the Bar Chart Showing Mental Health Issues by Course is a useful visualization for identifying the prevalence of mental health issues reported by students in different courses. It provides a clear and easily interpretable visual representation of the data, which can be used to identify areas where further support may be needed.
+
+##Line chart
+The line chart has the following visual elements:
+•	X-Axis: The x-axis represents the different mental health indicators such as anxiety, depression, and panic attack, along with the timestamp. 
+•	Y-Axis: The y-axis represents the number of students enrolled in each course.
+•	Legend: The legend represents the CGPA of the students, with each color representing a different range of CGPA values.
+•	Small Multiples: The small multiples represent the different study levels of the students, with each level represented by a different chart.
+
+###Interpretation
+The line chart provides an overview of the mental health indicators experienced by students over time, with a breakdown of the data by course and study level. The chart indicates that students across all courses and study levels have reported experiencing anxiety, depression, and panic attacks at varying levels. The chart also shows that students with lower CGPA values have reported experiencing more mental health issues. By using small multiples, the chart allows for easy comparison of the mental health indicators across different study levels. This information can help educational institutions identify areas where they can provide support to students to improve their mental health and academic performance.
+
+##Donut chart
+###Insights
+•	The donut chart clearly shows that anxiety is the most prevalent mental health issue among students across all study levels, followed by depression and panic attacks.
+•	The proportion of students with anxiety and depression appears to increase slightly with each passing year of study, whereas the proportion of students with panic attacks remains relatively constant.
+•	The largest group of students represented in the dataset are in year 1, followed by year 2, and the proportion of students with mental health issues generally decreases as the study level increases.
+
+###Conclusion
+This donut chart provides an easily digestible overview of the distribution of mental health issues among students by their study level. The chart shows that anxiety is the most prevalent mental health issue across all study levels, and the proportion of students with mental health issues generally decreases as the study level increases. The insights gained from this chart could be used by academic institutions to inform the design and implementation of mental health support services for students.
+
+##Scatter plot
+The scatter plot visualizes the relationship between different variables from a student mental health dataset. The plot has the following variables:
+X-Axis: Count of Age The count of age column represents the number of students at a particular age in the dataset. This axis represents the frequency of students at a particular age.
+Y-Axis: CGPA CGPA (Cumulative Grade Point Average) is a standard method used to measure a student's academic performance. This axis represents the academic performance of students.
+Size: Count of Course The count of course represents the number of students enrolled in a particular course. The size of the circle in the plot represents the number of students enrolled in the course.
+Legend: Study Study represents the year of study of students. Each year of study is represented by a different color in the plot.
+Values: The plot has three variables as values - Treatment Assistance, CGPA, and Timestamp. Treatment Assistance is a binary variable, with 1 representing that a student received treatment assistance, and 0 representing that they did not receive treatment assistance. The CGPA represents the academic performance of the student, and the Timestamp column represents the time at which the data was collected.
+The scatter plot helps to identify any patterns or relationships between the variables. It can be useful in determining if there is any correlation between a student's age, academic performance, the number of students enrolled in a particular course, and whether or not they received treatment assistance. It can also be used to identify any outliers or trends in the data.
+
+
+
+
+
+
 
 
 
